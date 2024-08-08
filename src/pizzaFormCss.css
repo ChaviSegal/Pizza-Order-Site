@@ -1,0 +1,295 @@
+.orderContainer {
+    direction: rtl;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #f0a500;
+    border-radius: 10px;
+    background-color: #fff5e6;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+}
+
+.success {
+    color: rgb(62, 148, 62);
+    text-align: center;
+    font-size: x-large;
+    margin-bottom: 7%;
+    border: solid 2px rgb(62, 148, 62);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.error2 {}
+
+.orderFormContainer {
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 20%;
+}
+
+.h1h1 {
+    text-align: center;
+    margin-right: 5%;
+}
+
+
+.orderContainer ul {
+    width: 100%;
+    margin-left: 3%;
+}
+
+.orderForm {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.orderForm label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+    text-align: center;
+    margin-right: 20%;
+
+}
+
+.orderForm input[type="text"] {
+    width: 10%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.orderForm button {
+    background-color: #f0a500;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 10px;
+}
+
+.orderForm button:hover {
+    background-color: #e09b00;
+    transform: scale(1.05);
+}
+
+.error {
+    font-size: 12px;
+    color: red;
+    border: solid 1.5px red;
+    padding: 5px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.pizzaList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.pizzaList li {
+    margin-bottom: 20px;
+}
+
+.pizzaOrderForm {
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #f0a500;
+    border-radius: 10px;
+    background-color: #fff5e6;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-left: 10%;
+    width: 50%;
+    text-align: center;
+}
+
+
+
+
+
+.pizzaOrderForm p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.pizzaOrderForm input[type="radio"],
+.pizzaOrderForm input[type="checkbox"] {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.pizzaOrderForm label {
+    margin-right: 20px;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+}
+
+.pizzaOrderForm button {
+    background-color: #f0a500;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 45%;
+}
+
+.pizzaOrderForm button:hover {
+    background-color: #e09b00;
+    transform: scale(1.05);
+}
+
+.submitButton {
+    direction: rtl;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #f0a500;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.submitButton:hover {
+    transform: scale(1.05);
+    background-color: #e59400;
+}
+
+/* .updatingButtons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+} */
+
+#updateButton {
+    /* margin-right: 5%; */
+}
+
+.oneOrder {
+    /* display: flex;
+    grid-template-rows: repeat(4, 1fr); */
+    /* 4 עמודות */
+    gap: 10px;
+    /* רווח של 10px בין הפיצות */
+    margin-top: 3%;
+    text-align: center;
+}
+
+.orderDetails{
+text-align: center;
+margin-top: 7%;
+}
+
+.eachPizzaContainer {
+    direction: rtl;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* 4 עמודות */
+    gap: 4%;
+    /* רווח של 4% בין הפיצות */
+    width: 100%;
+    /* תופס את כל הרוחב המוקצה */
+    box-sizing: border-box;
+    /* כולל padding ו-border ברוחב */
+    margin-bottom: 1.5%;
+    margin-right: 20%;
+
+}
+
+.pizzContainer {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+/* פרטי הפיצה */
+.pizzaDetails {
+    border: 2px solid #f0a500;
+    border-radius: 10px;
+    padding: 10px;
+    /* רווח פנימי של 10px */
+    background-color: #fff5e6;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    text-align: right;
+    width: 90%;
+    /* תופס את כל הרוחב המוקצה */
+    box-sizing: border-box;
+    /* כולל padding ו-border ברוחב */
+}
+
+/* עיצוב הכפתורים */
+.updatingButtons {
+    display: flex;
+    /* justify-content:center; */
+    margin-top: 10px;
+    margin-right: 3%;
+}
+
+#deleteButton {
+    margin-right: 20%;
+}
+
+.pizzaDetails div {
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #333;
+}
+
+.pizzaDetails p {
+    display: inline-block;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.greetingMassege {
+    text-align: center;
+    direction: rtl;
+}
+
+#addAPizza {
+    direction: rtl;
+    margin-left: 45%;
+    background-color: #f8f6f5;
+    border: solid 2px #f0a500;
+    color: #f0a500;
+    margin-bottom: 4%;
+}
+
+#sendOrder {
+    margin-left: 20%;
+}
+
+.buttonContainer {
+    display: flex;
+    margin-right: 45%;
+
+}
+
+#cancelButton {
+    color:#f0a500;
+    background-color:white;
+    border: solid 2px #f0a500;
+}
+
+.endOrder{
+    text-align: center;
+}
