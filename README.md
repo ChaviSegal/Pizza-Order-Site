@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# Pizza Ordering Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React-based web application for ordering pizzas. This project allows users to customize their pizza orders and submit them. Administrators can also manage and approve orders.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Pizza Customization**: Users can choose the size of their pizza and select from a variety of toppings.
+- **Order Management**: Admins can view, manage, and approve pizza orders.
+- **User-Friendly Interface**: Simple and intuitive design for easy navigation and use.
+- **Context API and Local Storage**: Utilizes React Context API for state management and local storage to persist orders.
 
-### `npm start`
+## Pages
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 1. Ordering Page (Client Side)
+- Allows users to add a new pizza, edit an existing pizza, and submit their order.
+- Requires users to enter their name and select pizza options.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 2. Pizza Editing Page (Client Side)
+- Users can choose the pizza size and add toppings.
+- Includes buttons to save or cancel changes.
 
-### `npm test`
+### 3. Order Management Page (Admin Side)
+- Displays a list of all orders with the option to view the details of each order.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 4. Order Details Page (Admin Side)
+- Shows the details of a specific order with the option to approve the order.
 
-### `npm run build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/yourusername/Pizza-Ordering-Website.git
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Navigate to the project directory:
+    ```bash
+    cd Pizza-Ordering-Website
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Install the dependencies:
+    ```bash
+    npm install
+    ```
 
-### `npm run eject`
+4. Start the development server:
+    ```bash
+    npm start
+    ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Usage
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Adding a Pizza**: Users can add pizzas by navigating to the order form and selecting their preferred size and toppings.
+- **Editing a Pizza**: Users can edit their pizza selections before submitting the order.
+- **Submitting an Order**: Once the order is finalized, users can submit it, and it will be saved in local storage.
+- **Managing Orders**: Admins can view and manage all orders, including approving or rejecting them.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Technologies Used
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **React**: Frontend library for building user interfaces.
+- **React Hook Form**: For managing form state and validation.
+- **React Router**: For client-side routing.
+- **UUID**: For generating unique IDs for orders.
+- **CSS**: Custom styles for the application.
 
-## Learn More
+## Contributing
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Feel free to fork the repository and submit pull requests. For major changes, please open an issue to discuss what you would like to change.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## License
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
